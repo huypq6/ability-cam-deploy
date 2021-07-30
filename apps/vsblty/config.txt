@@ -1,0 +1,33 @@
+{
+  "input": {
+    "source": "rtsp://admin:KgAi.Camera9@192.168.1.179/LiveH264_0"
+  },
+  "detector": {
+    "device": "MYRIAD",
+    "batchSize": 1,
+    "nreq": 1,
+    "threshold": 0.5,
+    "preProcessorType": "opencv",
+    "modelPath": "/mnt/resource/models/face-detection-0204.abgrp"
+  },
+  "faceLandmark": {
+    "device": "MYRIAD",
+    "batchSize": 1,
+    "nreq": 1,
+    "preProcessorType": "ABAPI",
+    "modelPath": "/mnt/resource/models/landmarks-regression-retail-0009.abgrp",
+    "modelProcPath": "/mnt/resource/models/landmarks-regression-retail-0009.json"
+  },
+  "faceReidentifier": {
+    "device": "MYRIAD",
+    "batchSize": 1,
+    "nreq": 1,
+    "preProcessorType": "ABAPI",
+    "modelPath": "/mnt/resource/models/face-reidentification-retail-0095.abgrp",
+    "modelProcPath": "/mnt/resource/models/face-reidentification-retail-0095.json"
+  },
+  "output": {
+    "showBoundingBoxes": true,
+    "boundingBoxColor": 0xFFFF0000
+  }
+}

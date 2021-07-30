@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="layer6_conv/Conv2D" out_port_id="0"/>
+		<IR name="layer6_conv/Conv2D" out_port_id="2" id="37"/>
+	</map>
+	<map>
+		<framework name="layer5_conv/biases" out_port_id="0"/>
+		<IR name="layer5_conv/biases/EltwiseUnsqueeze1401_const" out_port_id="1" id="31"/>
+	</map>
+	<map>
+		<framework name="layer4_conv/biases" out_port_id="0"/>
+		<IR name="layer4_conv/biases/EltwiseUnsqueeze1417_const" out_port_id="1" id="24"/>
+	</map>
+	<map>
+		<framework name="layer3_conv/Conv2D" out_port_id="0"/>
+		<IR name="layer3_conv/Conv2D" out_port_id="2" id="16"/>
+	</map>
+	<map>
+		<framework name="layer6_leaky" out_port_id="0"/>
+		<IR name="layer6_leaky" out_port_id="2" id="41"/>
+	</map>
+	<map>
+		<framework name="layer2_leaky" out_port_id="0"/>
+		<IR name="layer2_leaky" out_port_id="2" id="13"/>
+	</map>
+	<map>
+		<framework name="layer7_conv/weights" out_port_id="0"/>
+		<IR name="layer7_conv/Conv2D/Transpose1679_const" out_port_id="1" id="43"/>
+	</map>
+	<map>
+		<framework name="layer3_conv/biases" out_port_id="0"/>
+		<IR name="layer3_conv/biases/EltwiseUnsqueeze1385_const" out_port_id="1" id="17"/>
+	</map>
+	<map>
+		<framework name="layer1_conv/weights" out_port_id="0"/>
+		<IR name="layer1_conv/Conv2D/Transpose1655_const" out_port_id="1" id="1"/>
+	</map>
+	<map>
+		<framework name="layer3_conv/BiasAdd" out_port_id="0"/>
+		<IR name="layer3_conv/BiasAdd/Add" out_port_id="2" id="18"/>
+	</map>
+	<map>
+		<framework name="layer2_conv/Conv2D" out_port_id="0"/>
+		<IR name="layer2_conv/Conv2D" out_port_id="2" id="9"/>
+	</map>
+	<map>
+		<framework name="layer1_conv/biases" out_port_id="0"/>
+		<IR name="layer1_conv/biases/EltwiseUnsqueeze1409_const" out_port_id="1" id="3"/>
+	</map>
+	<map>
+		<framework name="layer5_conv/Conv2D" out_port_id="0"/>
+		<IR name="layer5_conv/Conv2D" out_port_id="2" id="30"/>
+	</map>
+	<map>
+		<framework name="layer8_conv/biases" out_port_id="0"/>
+		<IR name="layer8_conv/biases/EltwiseUnsqueeze1393_const" out_port_id="1" id="51"/>
+	</map>
+	<map>
+		<framework name="layer4_conv/BiasAdd" out_port_id="0"/>
+		<IR name="layer4_conv/BiasAdd/Add" out_port_id="2" id="25"/>
+	</map>
+	<map>
+		<framework name="m_outputs0/biases" out_port_id="0"/>
+		<IR name="m_outputs0/biases/EltwiseUnsqueeze1397_const" out_port_id="1" id="57"/>
+	</map>
+	<map>
+		<framework name="layer6_conv/biases" out_port_id="0"/>
+		<IR name="layer6_conv/biases/EltwiseUnsqueeze1413_const" out_port_id="1" id="38"/>
+	</map>
+	<map>
+		<framework name="layer8_leaky" out_port_id="0"/>
+		<IR name="layer8_leaky" out_port_id="2" id="54"/>
+	</map>
+	<map>
+		<framework name="layer3_conv/weights" out_port_id="0"/>
+		<IR name="layer3_conv/Conv2D/Transpose1663_const" out_port_id="1" id="15"/>
+	</map>
+	<map>
+		<framework name="layer5_conv/BiasAdd" out_port_id="0"/>
+		<IR name="layer5_conv/BiasAdd/Add" out_port_id="2" id="32"/>
+	</map>
+	<map>
+		<framework name="layer6_conv/weights" out_port_id="0"/>
+		<IR name="layer6_conv/Conv2D/Transpose1675_const" out_port_id="1" id="36"/>
+	</map>
+	<map>
+		<framework name="layer8_conv/BiasAdd" out_port_id="0"/>
+		<IR name="layer8_conv/BiasAdd/Add" out_port_id="2" id="52"/>
+	</map>
+	<map>
+		<framework name="layer5_conv/weights" out_port_id="0"/>
+		<IR name="layer5_conv/Conv2D/Transpose1671_const" out_port_id="1" id="29"/>
+	</map>
+	<map>
+		<framework name="layer4_conv/weights" out_port_id="0"/>
+		<IR name="layer4_conv/Conv2D/Transpose1667_const" out_port_id="1" id="22"/>
+	</map>
+	<map>
+		<framework name="layer1_conv/BiasAdd" out_port_id="0"/>
+		<IR name="layer1_conv/BiasAdd/Add" out_port_id="2" id="4"/>
+	</map>
+	<map>
+		<framework name="layer2_conv/weights" out_port_id="0"/>
+		<IR name="layer2_conv/Conv2D/Transpose1659_const" out_port_id="1" id="8"/>
+	</map>
+	<map>
+		<framework name="layer4_leaky" out_port_id="0"/>
+		<IR name="layer4_leaky" out_port_id="2" id="27"/>
+	</map>
+	<map>
+		<framework name="m_outputs0/weights" out_port_id="0"/>
+		<IR name="m_outputs0/Conv2D/Transpose1687_const" out_port_id="1" id="55"/>
+	</map>
+	<map>
+		<framework name="layer7_conv/Conv2D" out_port_id="0"/>
+		<IR name="layer7_conv/Conv2D" out_port_id="2" id="44"/>
+	</map>
+	<map>
+		<framework name="layer2_conv/biases" out_port_id="0"/>
+		<IR name="layer2_conv/biases/EltwiseUnsqueeze1389_const" out_port_id="1" id="10"/>
+	</map>
+	<map>
+		<framework name="layer4_conv/Conv2D" out_port_id="0"/>
+		<IR name="layer4_conv/Conv2D" out_port_id="2" id="23"/>
+	</map>
+	<map>
+		<framework name="layer2_conv/BiasAdd" out_port_id="0"/>
+		<IR name="layer2_conv/BiasAdd/Add" out_port_id="2" id="11"/>
+	</map>
+	<map>
+		<framework name="layer8_conv/Conv2D" out_port_id="0"/>
+		<IR name="layer8_conv/Conv2D" out_port_id="2" id="50"/>
+	</map>
+	<map>
+		<framework name="layer8_conv/weights" out_port_id="0"/>
+		<IR name="layer8_conv/Conv2D/Transpose1683_const" out_port_id="1" id="49"/>
+	</map>
+	<map>
+		<framework name="layer7_conv/BiasAdd" out_port_id="0"/>
+		<IR name="layer7_conv/BiasAdd/Add" out_port_id="2" id="46"/>
+	</map>
+	<map>
+		<framework name="layer3_leaky" out_port_id="0"/>
+		<IR name="layer3_leaky" out_port_id="2" id="20"/>
+	</map>
+	<map>
+		<framework name="layer6_conv/BiasAdd" out_port_id="0"/>
+		<IR name="layer6_conv/BiasAdd/Add" out_port_id="2" id="39"/>
+	</map>
+	<map>
+		<framework name="layer7_conv/biases" out_port_id="0"/>
+		<IR name="layer7_conv/biases/EltwiseUnsqueeze1405_const" out_port_id="1" id="45"/>
+	</map>
+	<map>
+		<framework name="layer5_leaky" out_port_id="0"/>
+		<IR name="layer5_leaky" out_port_id="2" id="34"/>
+	</map>
+	<map>
+		<framework name="layer1_conv/Conv2D" out_port_id="0"/>
+		<IR name="layer1_conv/Conv2D" out_port_id="2" id="2"/>
+	</map>
+	<map>
+		<framework name="model_outputs" out_port_id="0"/>
+		<IR name="m_outputs0/BiasAdd/Add" out_port_id="2" id="58"/>
+	</map>
+	<map>
+		<framework name="m_outputs0/BiasAdd" out_port_id="0"/>
+		<IR name="m_outputs0/BiasAdd/Add" out_port_id="2" id="58"/>
+	</map>
+	<map>
+		<framework name="m_outputs0/Conv2D" out_port_id="0"/>
+		<IR name="m_outputs0/Conv2D" out_port_id="2" id="56"/>
+	</map>
+	<map>
+		<framework name="layer1_leaky" out_port_id="0"/>
+		<IR name="layer1_leaky" out_port_id="2" id="6"/>
+	</map>
+</mapping>
